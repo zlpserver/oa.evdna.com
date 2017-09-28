@@ -2,7 +2,7 @@
 	//在地址栏中输入的地址
 	$domain = "http://oa.evdna.com"
 	//要转发到的地址
-	$http = "http://server.foswifi.com:8/";
+	$http = "http://server.evdna.com:8/";
 	if($_SERVER['HTTP_HOST'] == $domain){
 		print <<<EOF
 		<frameset rows="0%,*" frameborder="NO" border="0" framespacing="0">
